@@ -5,7 +5,7 @@ Page :
     - Accueil :
         - Description.
         - Courte présentation de l'équipe.(puis bouton en savoir plus)
-        - Courte description de notre savoir-faire.(puis bouton en savoir plus)
+        - Courte description de notre expérience.(puis bouton en savoir plus)
 
     - Portfolio: 
         - Nos réalisations
