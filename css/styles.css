@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*---------------------------------------------------------*/
+/*-------------------------Navbar--------------------------*/
+/*---------------------------------------------------------*/
+
+nav {
+    background-color: #7199D6;
+    color: #fff;
+    padding: 25px 0;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, .5);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    text-decoration: none;
+    border-radius: 5px;
+    width: 175px;
+}
+
+.nav-links {
+    font-size: 25px;
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #fff;
+    border-color: #fff;
+}
+
+/*-----Underline Buton-----*/
+
+.underline-button {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: color 0.3s ease;
+}
+
+.underline-button::before {
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: width 0.3s ease;
+}
+
+.underline-button:hover::before {
+    width: 100%;
+}
+
+.underline-button:hover {
+    color: #fff;
+}
+
+/*-------------------------*/
+
+/*---------------------------------------------------------*/
+/*------------------Text/Img Effect------------------------*/
+/*---------------------------------------------------------*/
+
+.typed-output{
+    font-size: 24px;
+    font-weight: bold;
+    overflow: hidden; /* Cache le texte excédentaire */
+    white-space: nowrap; /* Empêche le saut de ligne */
+    margin: 0 auto; /* Centre le texte horizontalement */
+    letter-spacing: 4px; /* Espacement des lettres */
+    font-size: 32px;
+    font-style: italic;
+}
+
+.container{
+    display: flex;
+}
+
+.container-title{
+    margin: 10% 15%;
+    position: absolute;
+}
+
+.container-description{
+    margin: 12% 15%;
+    width: 1920px;
+    position: relative;
+}
+
+.container-description p {
+    width: 450px;
+}
+
+.container-description img {
+    width: 50%;
+    max-width: 648px;
+    min-width: 512px;
+    position: absolute;
+    top: -200px;
+    right: 0;
+    opacity: 0;
+    animation: fade-in 2s ease-in-out forwards;
+}
+
+.container-competence{
+    display: flex;
+    margin: 17% 15%;
+}
+
+.container-skill-card{
+
+}
+/*---------------------------------------------------------*/
+/*------------------------Tableau--------------------------*/
+/*---------------------------------------------------------*/
+
+.skill-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+    margin: 10px;
+    width: 250px;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+}
+
+.skill-card img {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 50%;
+}
+
+.skill-card h3 {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
+}
+
+.skill-card p {
+    font-size: 14px;
+    color: #777;
+}
+
+
+/*---------------------------------------------------------*/
+/*-----------------------KeyFrames-------------------------*/
+/*---------------------------------------------------------*/
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+/*---------------------------------------------------------*/
+/*---------------------------------------------------------*/
+/*---------------------------------------------------------*/

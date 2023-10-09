@@ -1,0 +1,15 @@
+Descriptions :
+
+
+Page :
+    - Accueil :
+        - Description.
+        - Courte présentation de l'équipe.(puis bouton en savoir plus)
+        - Courte description de notre savoir-faire.(puis bouton en savoir plus)
+
+    - Portfolio: 
+        - Nos réalisations
+        
+    - A propos de nous : 
+        - présentation de l'équipe.
+
